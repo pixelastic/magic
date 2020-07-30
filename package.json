@@ -1,17 +1,24 @@
 {
+  "dependencies": {
+    "norska": "0.14.8"
+  },
   "devDependencies": {
     "aberlaas": "1.12.1"
   },
-  "files": ["lib/*.js"],
+  "files": [],
   "license": "MIT",
   "main": "lib/main.js",
   "name": "magic",
   "scripts": {
+    "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
+    "cms": "./scripts/cms",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
+    "serve": "./scripts/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
