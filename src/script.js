@@ -37,7 +37,8 @@ const magic = {
     cards.forEach((card) => {
       const pile = card.getAttribute('data-pile');
       const value = piles[pile].pop();
-      card.setAttribute('src', `./assets/cards/${value}.png`);
+      const src = card.getAttribute('src');
+      card.setAttribute('src', src.replace('AC', value));
     });
   },
   hide(element) {
