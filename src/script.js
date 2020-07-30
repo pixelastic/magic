@@ -1,5 +1,3 @@
-const { sampleSize, difference } = require('lodash-es');
-
 const magic = {
   steps: document.querySelectorAll('.js-step'),
   nextButtons: document.querySelectorAll('.js-next'),
@@ -10,36 +8,6 @@ const magic = {
       nextButton.addEventListener('click', this.nextStep.bind(this));
     });
     this.show(this.steps[0]);
-    this.shuffleCards();
-  },
-  shuffleCards() {
-    const allCards = [
-      'JC',
-      'JD',
-      'JH',
-      'JS',
-      'KC',
-      'KD',
-      'KH',
-      'KS',
-      'QC',
-      'QD',
-      'QH',
-      'QS',
-    ];
-
-    const mindPile = sampleSize(allCards, 6);
-    const magicPile = sampleSize(difference(allCards, mindPile), 5);
-    const piles = { mind: mindPile, magic: magicPile };
-
-    const cards = document.querySelectorAll('.js-card');
-
-    cards.forEach((card) => {
-      const pile = card.getAttribute('data-pile');
-      const value = piles[pile].pop();
-      const src = card.getAttribute('src');
-      card.setAttribute('src', src.replace('AC', value));
-    });
   },
   hide(element) {
     element.classList.add('hidden');
