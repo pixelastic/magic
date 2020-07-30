@@ -1,11 +1,11 @@
+include /_includes/mixins.pug
+
 block meta
   //- This block is empty on purpose; so each page can override the meta object
 
 doctype html
 html(lang='en')
   +norska_head
-  body
-    include /_includes/header
-    .container.mx-auto.p-3.mt-8
-      block content
+  body.bg-black.gray.h-100vh
+    block content
   +norska_scripts
