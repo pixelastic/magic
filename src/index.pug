@@ -10,7 +10,7 @@ block content
       .absolute.inset-0
         .flex.justify-center.items-center.h-100p
           #js-countdown.text-9.bold.gray-7.text-shadow
-      +img.mx-auto.max-h-100p(src="./assets/eyes.jpg")
+            +img.mx-auto.max-h-100p(src=`${url.pathToRoot}/assets/eyes.jpg`)
     +step.flex-1.flex.justify-top.items-center.flex-col
       .text-8.text-center.bold.gray-5.helvetica I'm going to read your mind.
       .text-7.text-center.bold.gray-5.helvetica.mt-1 Are you ready?
@@ -21,7 +21,7 @@ block content
       .flex
         +times(6)
           .flex-1.p-1
-            img.js-card.opacity-75p(src="./assets/cards/AS.png" data-pile="mind")
+            img.js-card.opacity-75p(src=`${url.pathToRoot}/assets/cards/AS.png` data-pile="mind")
     +step(data-countdown="5")
       .text-7.text-center.bold.gray-5.helvetica Now, look me in the eyes and think about your card
     +step.mx-auto.relative
@@ -29,4 +29,4 @@ block content
       .flex
         +times(5)
           .flex-1.p-1
-            img.js-card.opacity-90p(src="./assets/cards/AS.png" data-pile="magic")
+            img.js-card.opacity-90p(src=`${url.pathToRoot}/assets/cards/AS.png` data-pile="magic")
