@@ -1,5 +1,5 @@
 const pMap = require('golgoth/lib/pMap');
-const download = require('firost/lib/download');
+const download = require('firost/download');
 
 const types = ['J', 'Q', 'K'];
 const colors = ['S', 'D', 'C', 'H'];
