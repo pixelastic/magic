@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "lodash-es": "4.17.20",
+    "lodash-es": "4.17.21",
     "norska": "1.13.0"
   },
   "devDependencies": {
