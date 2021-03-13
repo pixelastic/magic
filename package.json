@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "lodash-es": "4.17.21",
-    "norska": "1.13.0"
+    "norska": "1.14.0"
   },
   "devDependencies": {
     "aberlaas": "1.15.0",
