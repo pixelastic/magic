@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "aberlaas": "1.15.0",
-    "firost": "2.7.0",
+    "firost": "2.8.0",
     "golgoth": "1.5.0"
   },
   "files": [],
