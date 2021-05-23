@@ -4,8 +4,8 @@
     "norska": "1.16.0"
   },
   "devDependencies": {
-    "aberlaas": "1.18.1",
-    "firost": "2.13.0",
+    "aberlaas": "1.22.0",
+    "firost": "2.13.1",
     "golgoth": "1.5.0"
   },
   "files": [],
