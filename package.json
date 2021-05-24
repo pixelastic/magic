@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "lodash-es": "4.17.21",
-    "norska": "1.16.0"
+    "norska": "2.3.0"
   },
   "devDependencies": {
     "aberlaas": "1.22.0",
     "firost": "2.13.1",
-    "golgoth": "1.5.0"
+    "golgoth": "2.0.0"
   },
   "files": [],
   "license": "MIT",
