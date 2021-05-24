@@ -1,4 +1,4 @@
-const pMap = require('golgoth/lib/pMap');
+const pMap = require('golgoth/pMap');
 const download = require('firost/download');
 
 const types = ['J', 'Q', 'K'];
